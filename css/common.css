@@ -12,3 +12,18 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.item {
+  background-color: F6F6FE;
+  margin-bottom: 24px;
+  border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    height: 216px;
+}
