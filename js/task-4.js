@@ -19,4 +19,16 @@ function handleFormSubmit(e) {
      e.target.reset();
 }
 
+const inputs = document.querySelectorAll('.form-input');
+
+inputs.forEach(input => {
+    input.addEventListener('focus', () => {
+        input.placeholder = "Type area";
+    });
+
+    input.addEventListener('blur', () => {
+        input.placeholder = "";
+    });
+})
+
 
